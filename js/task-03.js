@@ -20,9 +20,3 @@ const makeGaleryList = images.map((image) =>
 
 galeryList.insertAdjacentHTML("afterbegin", makeGaleryList) ;
 console.log(makeGaleryList);
-
-// const galeryContainerEl = document.querySelector('.gallery');
-// const makeGalery = images
-//   .map((img) => `<li><img src="${img.url}" alt="${img.alt}"></li>`)
-//   .join("");
-// galeryContainerEl.insertAdjacentHTML("afterbegin", makeGalery);
