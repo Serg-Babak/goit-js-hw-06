@@ -17,7 +17,7 @@ const galeryList = document.querySelector('.gallery');
 const makeGaleryList = images.map((image) =>
 `<li> <img src=${image.url} alt=${image.alt}> </li>`)
 .join("");
-galeryList.style.display ="flex" ;
+galeryList.style.display = "flex" ;
 galeryList.style.listStyle = 'none';
 
 galeryList.insertAdjacentHTML("afterbegin", makeGaleryList) ;
